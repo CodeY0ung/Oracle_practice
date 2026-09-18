@@ -1,0 +1,39 @@
+INSERT INTO student VALUES (20153075, '옥한빛', '기계', 1, 'C', 'M', 177, 80);
+INSERT INTO student VALUES (20153088, '이태연', '기계', 1, 'C', 'F', 162, 50);
+INSERT INTO student VALUES (20143054, '유가인', '기계', 2, 'C', 'F', 154, 47);
+INSERT INTO student VALUES (20152088, '조민우', '전기전자', 1, 'C', 'M', 188, 90);
+INSERT INTO student VALUES (20142021, '심수정', '전기전자', 2, 'A', 'F', 168, 45);
+INSERT INTO student VALUES (20132003, '박희철', '전기전자', 3, 'B', 'M', NULL, 63);
+INSERT INTO student VALUES (20151062, '김인중', '컴퓨터정보', 1, 'B', 'M', 166, 67);
+INSERT INTO student VALUES (20141007, '진현무', '컴퓨터정보', 2, 'A', 'M', 174, 64);
+INSERT INTO student VALUES (20131001, '김종헌', '컴퓨터정보', 3, 'C', 'M', NULL, 72);
+INSERT INTO student VALUES (20131025, '옥성우', '컴퓨터정보', 3, 'A', 'F', 172, 63);
+
+SELECT * FROM student;
+
+INSERT INTO subject VALUES ('111', '데이터베이스', '이재영', 2, '컴퓨터정보');
+INSERT INTO subject VALUES ('110', '자동제어', '정순정', 2, '전기전자');
+INSERT INTO subject VALUES ('109', '자동화설계', '박민영', 3, '기계');
+INSERT INTO subject VALUES ('101', '컴퓨터개론', '강종영', 3, '컴퓨터정보');
+INSERT INTO subject VALUES ('102', '기계공작법', '김태영', 1, '기계');
+INSERT INTO subject VALUES ('103', '기초전자실험', '김유석', 1, '전기전자');
+INSERT INTO subject VALUES ('104', '시스템분석설계', '강석현', 3, '컴퓨터정보');
+INSERT INTO subject VALUES ('105', '기계요소설계', '김명성', 1, '기계');
+INSERT INTO subject VALUES ('106', '전자회로실험', '최영민', 3, '전기전자');
+INSERT INTO subject VALUES ('107', 'CAD응용실습', '구봉규', 2, '기계');
+INSERT INTO subject VALUES ('108', '소프트웨어공학', '권민성', 1, '컴퓨터정보');
+
+SELECT * FROM subject;
+
+INSERT INTO enrol VALUES ('101', '20131001', 80);
+INSERT INTO enrol VALUES ('104', '20131001', 56);
+INSERT INTO enrol VALUES ('106', '20132003', 72);
+INSERT INTO enrol VALUES ('103', '20152088', 45);
+INSERT INTO enrol VALUES ('101', '20131025', 65);
+INSERT INTO enrol VALUES ('104', '20131025', 65);
+INSERT INTO enrol VALUES ('108', '20151062', 81);
+INSERT INTO enrol VALUES ('107', '20143054', 41);
+INSERT INTO enrol VALUES ('102', '20153075', 66);
+INSERT INTO enrol VALUES ('105', '20153075', 56);
+INSERT INTO enrol VALUES ('102', '20153088', 61);
+INSERT INTO enrol VALUES ('105', '20153088', 78);
